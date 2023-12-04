@@ -25,7 +25,7 @@ const SwapPage = () => {
   const [selectedNft, setSelectedNft] = useState(null);
   const [showNftSelector, setShowNftSelector] = useState(false);
   const [sessionURL, setSessionURL] = useState("");
-  const baseURL = "https://atomic-swap98.vercel.app/swap";
+  const baseURL = "https://atomic-swap-rho.vercel.app/swap";
 
   const fetchNFTs = async (walletAddress) => {
     console.log("Fetching NFTs for address:", walletAddress);
